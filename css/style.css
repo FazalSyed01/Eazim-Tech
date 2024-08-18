@@ -145,6 +145,9 @@ h6 {
     background-color: #191f30;
 	color: #fff;
 }
+.bg-blue {
+	background: linear-gradient(to left, #191f30, #1f8db3);
+}
 .text-white {
 	color: #fff;
 }
