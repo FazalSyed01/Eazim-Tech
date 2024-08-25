@@ -445,3 +445,9 @@
       );
     })());
 }).call(this);
+
+//Custom JS
+var contact_form = document.getElementById("contact_form");
+contact_form.addEventListener("submit", function(event) {
+  event.preventDefault();
+})

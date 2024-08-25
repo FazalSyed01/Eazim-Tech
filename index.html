@@ -23,10 +23,14 @@
                     class="fas fa-bars"></span> </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1" data-toggle="collapse" data-target=".navbar-collapse.show">About</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2" data-toggle="collapse" data-target=".navbar-collapse.show">Services</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0" data-toggle="collapse"
+                            data-target=".navbar-collapse.show">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1" data-toggle="collapse"
+                            data-target=".navbar-collapse.show">About</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2" data-toggle="collapse"
+                            data-target=".navbar-collapse.show">Services</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6" data-toggle="collapse"
+                            data-target=".navbar-collapse.show">Contact</a> </li>
                 </ul>
             </div>
         </div>
@@ -485,9 +489,31 @@
                                         placeholder="Subject">
                                     <textarea class="form-input w-100" id="message" placeholder="Message"
                                         name="message"></textarea>
-                                    <button class="btn-grad w-100 text-uppercase" type="submit"
-                                        name="button">submit</button>
+                                    <button class="btn-grad w-100 text-uppercase" type="submit" data-toggle="modal"
+                                        data-target="#exampleModalCenter" name="button">submit</button>
                                 </form>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Thank you for contacting Eazim Tech</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Our team will respond to your mail as soon as possible.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-dismiss="modal">Close</button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-4">
                                 <div class="contact-info white">
@@ -521,6 +547,7 @@
                 </div>
             </div>
         </div>
+
     </section>
 
 
@@ -544,15 +571,13 @@
 
 
     <footer class="footer-copy bg-dark">
-            <div class="col-md-12">
-                <div class="sectioner-header text-center white">
-                        <p class="white">@2024 All Rights Reserved</p>
-                </div>
+        <div class="col-md-12">
+            <div class="sectioner-header text-center white">
+                <p class="white">@2024 All Rights Reserved</p>
             </div>
         </div>
+        </div>
     </footer>
-
-
 
 
 
